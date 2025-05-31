@@ -11,7 +11,7 @@ training task
 
 ## Installation <a name="installation"></a>
 IMPORTANT NOTE: to run the jupyter code please download the used survey data from :
-https://survey.stackoverflow.co/datasets/stack-overflow-developer-survey-2024.zip and unpack it in your workspace 
+https://survey.stackoverflow.co/datasets/stack-overflow-developer-survey-2024.zip and unpack it in your workspace.
 
 There should be no necessary python libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
 
