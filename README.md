@@ -33,6 +33,8 @@ AnalyseImpactOfNumberOfToolsUsedAndIntendedToUseOnStanceForAI.ipynb
 - Contains the approach to identify correlation between number of AI tools planned to used and a subset of developers characteristics like years of work experience, job satisfaction, stance for the use of AI and the current number of tools used (linear regression approach).
 AnalyseThePossibleCharacteristicsForUsingAIAsADeveloper.ipynb
 - Approach to analyse dependecies between the usage of AI and characteristics of developers like practical coding experience, education level, age, employment situation and organizational size (ClassificationTree approach)   
+- my_functions.py
+python function to extract the selected data from a data file 
 
 ## Results<a name="results"></a>
 The sumary of the findings can be found on https://open.substack.com/pub/gelatti04/p/what-fosters-ai-tools-usage-in-software?r=5sc8w7&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
