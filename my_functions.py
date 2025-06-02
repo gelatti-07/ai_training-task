@@ -1,7 +1,19 @@
 import pandas as pd
 
 def filter_columns_from_data_source(column_names: list, data_source: str) -> pd.DataFrame:
-    # Filters and returns a DataFrame containing only the specified columns from the given data source.
+    ''' 
+    This function returns a data frame containing only the column_names from the data_source which is located in the current workspace.
+    In case the data source is not found prints out an Error file not found
+    In case a column name is not contained in the data soruce it prints an error message that the corresponding columns  is not found
+    In case of any other error it prints out the error.
+    
+    Input: 
+        column_names : list of column names
+        data_source: : file name
+        
+    Output: 
+        Data frame containing only the columns column_names from the data_source
+    '''
     
     try:
         df=pd.read_csv(data_source)
